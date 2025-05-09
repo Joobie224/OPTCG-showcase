@@ -1,0 +1,452 @@
+[
+  {
+    "id": "OP01-001",
+    "name": "Roronoa Zoro",
+    "type": "Leader",
+    "color": "Red",
+    "attribute": "Supernovas / Straw Hat Crew",
+    "effect": "[DON!! x1][Your Turn] All your Characters gain +1000 power.",
+    "rarity": "L",
+    "image": "/assets/OP01-001.png"
+  },
+  {
+    "id": "OP01-002",
+    "name": "Trafalgar Law",
+    "type": "Law",
+    "color": "Red / Green",
+    "attribute": "Supernovas / Heart Pirates",
+    "effect": "[Activate: Main][Once Per Turn][2] (You may rest the specified number of DON!! cards in your Cost Area): If you have 5 Characters, return 1 of your Characters to the owner's hand, then play up to 1 Character with a cost of 5 or less of a different color as the returned Character from your hand.",
+    "rarity": "L",
+    "image": "/assets/OP01-002.png"
+  },
+  {
+    "id": "OP01-003",
+    "name": "Monkey. D. Luffy",
+    "type": "Leader",
+    "color": "Red / Green",
+    "attribute": "Supernovas / Straw Hat Crew",
+    "effect": "[Activate: Main][Once Per Turn][4] (You may rest the specified number of DON!! cards in your Cost Area): Set up to 1 of your {Supernovas} or {Straw Hat Crew} type Character cards with a cost of 5 or less as active. It gains +1000 power during this turn.",
+    "rarity": "L",
+    "image": "/assets/OP01-003.png"
+  },
+  {
+    "id": "OP01-004",
+    "name": "Usopp",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Straw Hat Crew",
+    "effect": "[DON!! x1][Your Turn][Once Per Turn] After your opponent activates an Event, Draw 1 card.",
+    "rarity": "R",
+    "image": "/assets/OP01-004.png"
+  },
+  {
+    "id": "OP01-005",
+    "name": "Uta",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "FILM",
+    "effect": "[On Play] Return up to 1 red Character card other than [Uta] with a cost of 3 or less from your trash to your hand.",
+    "rarity": "R",
+    "image": "/assets/OP01-005.png"
+  },
+  {
+    "id": "OP01-006",
+    "name": "Otama",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Wano Country",
+    "effect": "[On Play] Give up to 1 of your opponent's Characters -2000 power during this turn.",
+    "rarity": "UC",
+    "image": "/assets/OP01-006.png"
+  },
+  {
+    "id": "OP01-007",
+    "name": "Caribou",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Supernovas / Caribou Pirates",
+    "effect": "[On K.O.] K.O. up to 1 of your opponent's Characters with 4000 power or less.",
+    "rarity": "C",
+    "image": "/assets/OP01-007.png"
+  },
+  {
+    "id": "OP01-008",
+    "name": "Cavendish",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Supernovas / Beautiful Pirates",
+    "effect": "[On Play] You may add 1 card from your Life area to your hand: This Character gains [Rush] during this turn. (This card can attack on the turn in which it is played)",
+    "rarity": "C",
+    "image": "/assets/OP01-008.png"
+  },
+  {
+    "id": "OP01-009",
+    "name": "Carrot",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Mink Tribe",
+    "effect": "[Trigger] Play this card.",
+    "rarity": "C",
+    "image": "/assets/OP01-009.png"
+  },
+  {
+    "id": "OP01-010",
+    "name": "Komachiyo",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Animal / Wano Country",
+    "effect": "No Effect",
+    "rarity": "C",
+    "image": "/assets/OP01-010.png"
+  },
+  {
+    "id": "OP01-011",
+    "name": "Gordon",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "FILM",
+    "effect": "[On Play] You may place 1 card from your hand at the bottom of your deck: Draw 1 card.",
+    "rarity": "UC",
+    "image": "/assets/OP01-011.png"
+  },
+  {
+    "id": "OP01-012",
+    "name": "Sai",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Happosui Army",
+    "effect": "No Effect",
+    "rarity": "C",
+    "image": "/assets/OP01-012.png"
+  },
+  {
+    "id": "OP01-013",
+    "name": "Sanji",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Straw Hat Crew",
+    "effect": "[Activate: Main][Once Per Turn] You may add 1 card from your Life area to your hand: This Character gains +2000 power during this turn. Then, give this Character up to 2 rested DON!! cards.",
+    "rarity": "R",
+    "image": "/assets/OP01-013.png"
+  },
+  {
+    "id": "OP01-014",
+    "name": "Jinbe",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Fish-Man / Straw Hat Crew",
+    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [DON!! x1][On Block] Play up to 1 red Character card with a cost of 2 or less from your hand.",
+    "rarity": "UC",
+    "image": "/assets/OP01-014.png"
+  },
+  {
+    "id": "OP01-015",
+    "name": "Tony Tony.Chopper",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Animal / Straw Hat Crew",
+    "effect": "[DON!! x1][When Attacking] You may trash 1 card from your hand: Add up to 1 {Straw Hat Crew} type Character card other than [Tony Tony.Chopper] with a cost of 4 or less from your trash to your hand.",
+    "rarity": "UC",
+    "image": "/assets/OP01-015.png"
+  },
+  {
+    "id": "OP01-016",
+    "name": "Nami",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Straw Hat Crew",
+    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Straw Hat Crew} type card other than [Nami] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "rarity": "R",
+    "image": "/assets/OP01-016.png"
+  },
+  {
+    "id": "OP01-017",
+    "name": "Nico Robin",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Straw Hat Crew",
+    "effect": "[DON!! x1][When Attacking] K.O. up to 1 of your opponent's Characters with 3000 power or less.",
+    "rarity": "R",
+    "image": "/assets/OP01-017.png"
+  },
+  {
+    "id": "OP01-018",
+    "name": "Hajrudin",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Giants / New Giant Warrior Pirates",
+    "effect": "No Effect",
+    "rarity": "C",
+    "image": "/assets/OP01-018.png"
+  },
+  {
+    "id": "OP01-019",
+    "name": "Bartolomeo",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Supernovas / Barto Club",
+    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [DON!! x2][Opponent's Turn] This Character gains +3000 Power.",
+    "rarity": "C",
+    "image": "/assets/OP01-019.png"
+  },
+  {
+    "id": "OP01-020",
+    "name": "Hyogoro",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Wano Country",
+    "effect": "[Activate: Main] You may rest this Character: Your Leader or up to 1 of your Characters gains +2000 power during this turn.",
+    "rarity": "C",
+    "image": "/assets/OP01-020.png"
+  },
+  {
+    "id": "OP01-021",
+    "name": "Franky",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Straw Hat Crew",
+    "effect": "No Effect",
+    "rarity": "UC",
+    "image": "/assets/OP01-021.png"
+  },
+  {
+    "id": "OP01-022",
+    "name": "Brook",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Straw Hat Crew",
+    "effect": "[DON!! x1][When Attacking] Give up to 2 of your opponent's Character -2000 power during this turn.",
+    "rarity": "UC",
+    "image": "/assets/OP01-022.png"
+  },
+  {
+    "id": "OP01-023",
+    "name": "Marco",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Former White Beard Pirates",
+    "effect": "No Effect",
+    "rarity": "C",
+    "image": "/assets/OP01-023.png"
+  },
+  {
+    "id": "OP01-024",
+    "name": "Monkey. D. Luffy",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Supernovas / Straw Hat Crew",
+    "effect": "[DON!! x2] This Character cannot be K.O.'d when battling (Strike) Attribute Characters. [Activate: Main][Once Per Turn] Give this Character up to 2 rested DON!! cards.",
+    "rarity": "SR",
+    "image": "/assets/OP01-024.png"
+  },
+  {
+    "id": "OP01-025",
+    "name": "Roronoa Zoro",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Supernovas / Straw Hat Crew",
+    "effect": "[Rush] (This card can attack on the turn in which it is played.)",
+    "rarity": "SR",
+    "image": "/assets/OP01-025.png"
+  },
+  {
+    "id": "OP01-026",
+    "name": "Gum Gum Red Hawk",
+    "type": "Event",
+    "color": "Red",
+    "attribute": "Supernovas / Straw Hat Crew",
+    "effect": "[Counter] Your Leader or up to 1 of your Characters gains +4000 power during this battle. Then, K.O. up to 1 of your opponent's Characters with 4000 power or less. [Trigger] Give up to 1 of your opponent's Leader or Characters -10000 power during this turn.",
+    "rarity": "R",
+    "image": "/assets/OP01-026.png"
+  },
+  {
+    "id": "OP01-027",
+    "name": "Round Table",
+    "type": "Event",
+    "color": "Red",
+    "attribute": "Supernovas / Beautiful Pirates",
+    "effect": "[Main] Give up to 1 of your opponent's Characters -10000 power during this turn.",
+    "rarity": "C",
+    "image": "/assets/OP01-027.png"
+  },
+  {
+    "id": "OP01-028",
+    "name": "Green Star: Rafflesia",
+    "type": "Event",
+    "color": "Red",
+    "attribute": "Straw Hat Crew",
+    "effect": "[Counter] Give up to 1 of your opponent's Leader or Characters -2000 power during this turn. [Trigger] Activate this card's [Counter] effect.",
+    "rarity": "C",
+    "image": "/assets/OP01-028.png"
+  },
+  {
+    "id": "OP01-029",
+    "name": "Radical Beam!!",
+    "type": "Event",
+    "color": "Red",
+    "attribute": "Straw Hat Crew",
+    "effect": "[Counter] Your Leader or up to 1 of your Characters gains +2000 power during this battle. Then, if you have 2 or less Life cards, that card gains an additional +2000 power during this battle. [Trigger] Your Leader or up to 1 of your Characters gains +1000 power during this turn.",
+    "rarity": "UC",
+    "image": "/assets/OP01-029.png"
+  },
+  {
+    "id": "OP01-030",
+    "name": "In Two Years!! At the Sabaody Archipelago!!",
+    "type": "Straw Hat Crew",
+    "color": "Red",
+    "attribute": "Straw Hat Crew",
+    "effect": "[Main] Look at 5 cards from the top of your deck; reveal up to 1 {Straw Hat Crew} type Character card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "rarity": "UC",
+    "image": "/assets/OP01-030.png"
+  },
+  {
+    "id": "OP01-031",
+    "name": "Kozuki Oden",
+    "type": "Leader",
+    "color": "Green",
+    "attribute": "Wano Country / Kozuki Family",
+    "effect": "[Activate: Main][Once Per Turn] You may trash 1 {Wano Country} type card from your hand: Set up to 2 of your DON!! cards as active.",
+    "rarity": "L",
+    "image": "/assets/OP01-031.png"
+  },
+  {
+    "id": "OP01-032",
+    "name": "Ashura Douji",
+    "type": "Character",
+    "color": "Green",
+    "attribute": "Wano Country / Nine Red Scabbards",
+    "effect": "[DON!! x1] If your opponent has 2 or more rested Characters, this Character gains +2000 power.",
+    "rarity": "UC",
+    "image": "/assets/OP01-032.png"
+  },
+  {
+    "id": "OP01-033",
+    "name": "Izou",
+    "type": "Character",
+    "color": "Green",
+    "attribute": "Wano Country / Former White Beard Pirates",
+    "effect": "[On Play] Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
+    "rarity": "UC",
+    "image": "/assets/OP01-033.png"
+  },
+  {
+    "id": "OP01-034",
+    "name": "Dog Storm",
+    "type": "Character",
+    "color": "Green",
+    "attribute": "Mink Tribe / Wano Country / Nine Red Scabbards",
+    "effect": "[DON!! x2][When Attacking] Set up to 1 of your DON!! as active.",
+    "rarity": "C",
+    "image": "/assets/OP01-034.png"
+  },
+  {
+    "id": "OP01-035",
+    "name": "Okiku",
+    "type": "Character",
+    "color": "Green",
+    "attribute": "Wano Country / Nine Red Scabbards",
+    "effect": "[DON!! x1][When Attacking][Once Per Turn] Rest up to 1 of your opponent's Characters with a cost of 5 or less.",
+    "rarity": "R",
+    "image": "/assets/OP01-035.png"
+  },
+  {
+    "id": "OP01-036",
+    "name": "Otsuru",
+    "type": "Character",
+    "color": "Green",
+    "attribute": "Wano Country",
+    "effect": "No Effect",
+    "rarity": "C",
+    "image": "/assets/OP01-036.png"
+  },
+  {
+    "id": "OP01-037",
+    "name": "Kawamatsu",
+    "type": "Character",
+    "color": "Green",
+    "attribute": "Fish-Man / Wano Country / Nine Red Scabbards",
+    "effect": "[Trigger] Play this card.",
+    "rarity": "C",
+    "image": "/assets/OP01-037.png"
+  },
+  {
+    "id": "OP01-038",
+    "name": "Kanjuro",
+    "type": "Character",
+    "color": "Green",
+    "attribute": "Wano Country / Nine Red Scabbards",
+    "effect": "[DON!! x1][When Attacking] K.O. up to 1 of your opponent's rested Characters witha  cost of 2 or less. [On K.O.] Your opponent chooses 1 card from your hand; trash that card.",
+    "rarity": "C",
+    "image": "/assets/OP01-038.png"
+  },
+  {
+    "id": "OP01-039",
+    "name": "Killer",
+    "type": "Character",
+    "color": "Green",
+    "attribute": "Supernovas / Kid Pirates",
+    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [DON!! x1][On Block] If you have 3 or more Characteres, draw 1 card.",
+    "rarity": "UC",
+    "image": "/assets/OP01-039.png"
+  },
+  {
+    "id": "OP01-040",
+    "name": "Kin'emon",
+    "type": "Character",
+    "color": "Green",
+    "attribute": "Wano Country / Nine Red Scabbards",
+    "effect": "[On Play] If your Leader is [Kozuki Oden], play up to 1 {Nine Red Scabbards} type Character card with a cost of 3 or less from your hand. [DON!! x1][When Attacking][Once Per Turn] Set up to 1 of your {Nine Red Scabbards} type Characters with a cost of 3 or less as active.",
+    "rarity": "SR",
+    "image": "/assets/OP01-040.png"
+  },
+  {
+    "id": "OP01-041",
+    "name": "Kozuki Momonosuke",
+    "type": "Character",
+    "color": "Green",
+    "attribute": "Wano Country / Kozuki Family",
+    "effect": "[Activate: Main][1] (You may rest the specified number of DON!! cards in your Cost Area) You may rest this Character: Look at 5 cards from the top of your deck; reveal up to 1 {Wano Country} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "rarity": "R",
+    "image": "/assets/OP01-041.png"
+  },
+  {
+    "id": "OP01-042",
+    "name": "Komurasaki",
+    "type": "Character",
+    "color": "Green",
+    "attribute": "Wano Country / Kozuki Family",
+    "effect": "[On Play][3] (You may rest the specified number of DON!! cards in your Cost Area): If your Leader is [Kozuki Oden], set up to 1 of your {Wano Country} type Characters with a cost of 3 or less as active.",
+    "rarity": "UC",
+    "image": "/assets/OP01-042.png"
+  },
+  {
+    "id": "OP01-043",
+    "name": "Shinobu",
+    "type": "Character",
+    "color": "Green",
+    "attribute": "Wano Country",
+    "effect": "No Effect",
+    "rarity": "C",
+    "image": "/assets/OP01-043.png"
+  },
+  {
+    "id": "OP01-044",
+    "name": "Shachi",
+    "type": "Character",
+    "color": "Green",
+    "attribute": "Heart Pirates",
+    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Play] If you do not have [Penguin] in play, play up to 1 [Penguin] card from your hand.",
+    "rarity": "C",
+    "image": "/assets/OP01-044.png"
+  },
+  {
+    "id": "OP01-045",
+    "name": "Jean Bart",
+    "type": "Character",
+    "color": "Green",
+    "attribute": "Heart Pirates",
+    "effect": "No Effect",
+    "rarity": "C",
+    "image": "/assets/OP01-045.png"
+  }
+]

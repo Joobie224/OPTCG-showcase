@@ -1,0 +1,55 @@
+.card-glow {
+    background: radial-gradient(circle at center, rgba(255, 255, 255, 0.15), transparent 60%);
+    transition: background-position 0.2s ease;
+}
+
+.glow-animate {
+    animation: pulseGlow 2s infinite ease-in-out;
+}
+
+@keyframes pulseGlow {
+    0% {
+        opacity: 0.3;
+    }
+    50% {
+        opacity: 0.6;
+    }
+    100% {
+        opacity: 0.3;
+    }
+}
+
+.underline-target {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 2px;
+}
+
+.underline-target::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0%;
+    background: #6395EE;
+}
+
+.underline-fill {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0%;
+    background-color: #6395EE;
+    display: block;
+}
+
+.expanded-card-img {
+    max-width: 50vw;
+    max-height: 80vh;
+    width: auto;
+    height: auto;
+    z-index: 20;
+    transition: all 0.6s ease-in-out;
+}
