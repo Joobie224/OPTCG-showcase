@@ -6,7 +6,9 @@ const cards = require('./cards.json')
 const path = require('path')
 
 app.use(express.json())
-app.use(cors());
+app.use(cors({
+  origin: "https://optcg-showcase.onrender.com"
+}));
 app.use('/assets', express.static(path.join(__dirname, 'assets')));
 
 app.get("/cards", async (req, res, next) => {
