@@ -15,7 +15,7 @@ function App() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:3000/cards")
+      .get("https://optcg-showcase-backend.onrender.com/cards")
       .then((res) => setCards(res.data))
       .catch((err) => console.error("Error fetching cards:", err));
   }, []);
@@ -173,7 +173,7 @@ function App() {
                 >
                   <img
                     ref={card.id === activeCardId ? activeCardRef : null}
-                    src={`http://localhost:3000${card.image}`}
+                    src={`https://optcg-showcase-backend.onrender.com${card.image}`}
                     alt={card.name}
                     className="card-img w-full h-auto object-contain rounded-xl transform-gpu will-change-transform"
                     style={{
