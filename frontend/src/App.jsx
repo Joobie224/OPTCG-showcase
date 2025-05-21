@@ -3,6 +3,8 @@ import axios from "axios";
 import "./App.css";
 import { animate, createScope } from "animejs";
 
+const baseURL = import.meta.env.VITE_BACKEND_URL;
+
 function App() {
   const [cards, setCards] = useState([]);
   const [activeCardId, setActiveCardId] = useState(null);
@@ -14,10 +16,14 @@ function App() {
   const cardGridRef = useRef(null);
 
   useEffect(() => {
-    axios
-      .get("https://optcg-showcase-backend.onrender.com/cards")
-      .then((res) => setCards(res.data))
-      .catch((err) => console.error("Error fetching cards:", err));
+    const getData = async () => {
+      const response = await fetch(`${baseURL}/cards`);
+      const data = await response.json();
+
+      setCards(data);
+    };
+
+    getData();
   }, []);
 
   useEffect(() => {

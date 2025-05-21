@@ -7,7 +7,7 @@ const path = require('path')
 
 app.use(express.json())
 app.use(cors({
-  origin: "https://optcg-showcase.onrender.com"
+  origin: ["https://optcg-showcase.onrender.com", "http://localhost:5174", "http://localhost:5173"],
 }));
 app.use('/assets', express.static(path.join(__dirname, 'assets')));
 
